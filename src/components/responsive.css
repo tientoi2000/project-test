@@ -1,0 +1,123 @@
+/* Mobile & tablet */
+@media (max-width: 1200px) and (min-width: 550px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        border: none;
+    }
+    .newtask {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        border: 1px solid #ccc
+    }
+    .list {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .border {
+        border: none;
+    }
+    .Rectangle .Rectangle_all {
+        width: 550px;
+        border: 1px solid #000;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 550px) and (min-width: 415px) {
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        border: none;
+    }
+    .newtask {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        border: 1px solid #ccc
+    }
+    .list {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .border {
+        border: none;
+    }
+    .Rectangle .Rectangle_all {
+        width: 276px;
+        border: 1px solid #000;
+    }
+    .form_list {
+        width: 100%;
+    }
+    .option {
+        flex-direction: column;
+    }
+    .form_task {
+        width: 90%;
+    }
+}
+
+@media (max-width: 415px) {
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        border: none;
+    }
+    .newtask {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        border: 1px solid #ccc
+    }
+    .list {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .border {
+        border: none;
+    }
+    .Rectangle .Rectangle_all {
+        width: 100%;
+        border: 1px solid #000;
+    }
+    .form_list {
+        width: 100%;
+    }
+    .option {
+        flex-direction: column;
+    }
+    .form_task {
+        width: 90%;
+    }
+}
